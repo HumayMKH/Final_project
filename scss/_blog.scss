@@ -1,0 +1,51 @@
+.blog{ 
+    background-color: $bg-color;
+   .shadow{
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+
+    
+    img{
+        width: 100%;
+        height: auto;
+  }
+  .card-body{
+    background-color: $first-color;
+    border: 0.25px solid rgba(0,0,0,.05);
+    border-radius: 4px;
+
+    h5{
+    line-height: 1.5;
+    color: $five-color;
+    font-weight: 700;
+    font-size:$subtitle-size;
+    }
+   .button-style{
+        font-weight: 600;
+        border-radius:4px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: all .15s ease;
+        letter-spacing: 0.25px;
+        font-size:$button-size;
+        color: $first-color;
+        background-color:$sec-color;
+        border-color:$sec-color;
+        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+        line-height: 1.5;
+       text-decoration: none;    
+        }
+    .date{
+        font-size: $text-title-size;
+        color:$four-color;
+    }
+    .mb-4{
+        font-size: $text-title-size;
+        color:$six-color;
+    }
+  }
+}
+}
+.shadow:hover{
+    transform: translateY(-20px);
+    transition: all .15s ease;
+}

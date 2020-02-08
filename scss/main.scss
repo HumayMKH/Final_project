@@ -1,0 +1,42 @@
+@import "variables";
+@import "navbar";
+@import "intro";
+@import "popular-place";
+@import "visited-area";
+@import "services";
+@import "amazing-team";
+@import "blog";
+@import "footer";
+@import "sidebar-intro";
+@import "sidebar-main";
+@import "pricing.scss";
+@import "blog-list";
+@import "blog-list-sidebar";
+@import "log-in";
+
+
+
+body{
+    background-color:$first-color ;
+    font-family: $main-font;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1040px;
+    }   
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.popular{
+    padding: 96px 0;;
+}

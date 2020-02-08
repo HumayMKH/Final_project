@@ -1,0 +1,19 @@
+@media screen and(min-width:992px){
+    .dropdown-menu1{
+        position: absolute;
+        width: 200px;
+        left: 105%;
+        background-color: white;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        font-size: 15px;
+        transition: all .25s;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        border: none;
+        top: 10%;
+        display: none;
+        z-index:999;
+    }
+    
+}

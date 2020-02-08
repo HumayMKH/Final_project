@@ -1,0 +1,34 @@
+.services{
+   background-color:$sec-color;
+   .services-text{
+      h2{
+         color:$first-color;
+         font-size:$title-size;
+         font-weight: 700;
+         line-height: 1.5;
+      }
+      p{
+         color:$first-color;
+      }
+   }
+   .services-contact-text{
+      .service-icon{
+         padding: 12px;   
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 50%;
+         background-color: $first-color;
+         box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;
+         color:$sec-color;
+         width: 64px;
+         height: 64px;
+      }
+      h5{
+         font-weight: 700;
+      }
+      p{
+         font-size: $text-title-size;
+      }
+   }
+}
